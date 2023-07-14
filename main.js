@@ -1,7 +1,7 @@
 const Server = require('ws').Server;
 const fs = require('fs');
 
-const wss = new Server({ port:4505 });
+const wss = new Server({ host : "0.0.0.0", port:80 });
 
 
 
